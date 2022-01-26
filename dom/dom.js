@@ -6,8 +6,14 @@ for(var i = 0; i < authorList.length; i++) {
     // eliment.innerHTML = " Nahid Hassan ";
 }
 
-var title = document.getElementById('sectionTitle');
-var newEliment = document.createElement("p");
-newEliment.innerHTML =" Hello Nahid Hassan" ;
+// var title = document.getElementById('sectionTitle');
+// var newEliment = document.createElement("p");
+// newEliment.innerHTML =" Hello Nahid Hassan" ;
 
-title.appendChild(newEliment);
+// title.appendChild(newEliment);
+
+// dom onclick function 
+
+var clickBtn = document.getElementById('btn').addEventListener('click', function(){
+    document.body.style.color="green";
+})
