@@ -1,9 +1,10 @@
 var authorList = document.getElementsByClassName('author');
 for(var i = 0; i < authorList.length; i++) {
-    var eliment = authorList[i];
-    eliment.style.color = "green";
+    // var eliment = authorList[i];
+    // eliment.style.color = "green";
     // console.log(eliment.innerHTML);
     // eliment.innerHTML = " Nahid Hassan ";
+    console.log(authorList[i]);
 }
 
 // var title = document.getElementById('sectionTitle');
