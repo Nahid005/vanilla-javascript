@@ -33,9 +33,13 @@
     </div>
 
     <script>
-        
+        let authors = document.getElementsByClassName('author');
+        for(let i = 0; i<authors.length; i++){
+            let element = authors[i];
+            element.style.color='red';
+        }
     </script>
 
-    <script src="./dom/dom.js"></script>
+    <!-- <script src="./dom/dom.js"></script> -->
 </body>
 </html>
